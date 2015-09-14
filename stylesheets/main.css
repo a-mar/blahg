@@ -21,6 +21,17 @@ body {
   -o-font-feature-settings: "liga", "pnum", "cpsp", "case";
 }
 
+/* Page header */
+  @media screen and (min-width: 64em) {
+    body {
+      font: 131%/1.33 'FiraBook', sans-serif; } }
+  @media screen and (min-width: 42em) and (max-width: 64em) {
+    body {
+      font: 120%/1.2 'FiraBook', sans-serif; } }
+  @media screen and (max-width: 42em) {
+    body {
+      font: 100%/1.1 'FiraBook', sans-serif; } }
+
 p {
   font-family: 'FiraBook', sans-serif;
   font-weight: normal;
@@ -186,6 +197,9 @@ h6 {
   border-bottom: solid 1px #eff0f1;
   margin-bottom:1rem;
   padding-bottom:1rem;
+  font-family:'Nuvo', sans-serif;
+  font-weight: normal;
+  font-style: normal;
 }
 
 #header-left {
