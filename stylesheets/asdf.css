@@ -1,11 +1,11 @@
 .pre {
   overflow: auto;
   /*width: 700px;*/
-  font-family: 'FiraMono', Courier, sans-serif;
+  font-family: 'FiraMonoMd', Courier, sans-serif;
 }
 
 code,kbd,pre,samp {
-  font-family: 'FiraMono', sans-serif;
+  font-family: 'FiraMonoMd', sans-serif;
   overflow: auto;
   /*width: 700px;*/
   font-size:67%;
@@ -64,13 +64,13 @@ li.L1,li.L3,li.L5,li.L7,li.L9 { }
 
 @media print {
   pre .str, code .str { color: #060; }
-  pre .kwd, code .kwd { color: #006; font-family: 'FiraMono'; font-weight: normal; }
+  pre .kwd, code .kwd { color: #006; font-family: 'FiraMonoMd'; font-weight: normal; }
   pre .com, code .com { color: #600; font-style: italic; }
-  pre .typ, code .typ { color: #404; font-family: 'FiraMono'; font-weight: normal; }
+  pre .typ, code .typ { color: #404; font-family: 'FiraMonoMd'; font-weight: normal; }
   pre .lit, code .lit { color: #044; }
   pre .pun, code .pun { color: #440; }
   pre .pln, code .pln { color: #000; }
-  pre .tag, code .tag { color: #006; font-family: 'FiraMono'; font-weight: normal; }
+  pre .tag, code .tag { color: #006; font-family: 'FiraMonoMd'; font-weight: normal; }
   pre .atn, code .atn { color: #404; }
   pre .atv, code .atv { color: #060; }
 }
