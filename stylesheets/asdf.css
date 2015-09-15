@@ -1,0 +1,62 @@
+/* Colors
+==========================================================*/
+  pre .str, code .str { color: #65B042; } /* string  - green */
+  pre .kwd, code .kwd { color: #1e6cb0; } /* keyword - dark pink */
+  pre .com, code .com { color: #afbcdb; font-style: italic; } /* comment - gray */
+  pre .typ, code .typ { color: #9F00C5; } /* type - light blue */
+  pre .lit, code .lit { color: #17b9c2; } /* literal - blue */
+  pre .pun, code .pun { color: #E4717A; } /* punctuation - teal */
+  pre .pln, code .pln { color: #7A7A7A; } /* plaintext - grey */
+  pre .tag, code .tag { color: #07406B; } /* html/xml tag    - light blue */
+  pre .atn, code .atn { color: #bdb76b; } /* html/xml attribute name  - khaki */
+  pre .atv, code .atv { color: #65B042; } /* html/xml attribute value - green */
+  pre .dec, code .dec { color: #3387CC; } /* decimal - blue */
+
+  pre.prettyprint, code.prettyprint {
+  	border-color:#D7D7D7;
+  	background-color: #fff;
+  	  -moz-border-radius: 1px;
+  	  -webkit-border-radius: 1px;
+  	  -o-border-radius: 7px;
+  	  -ms-border-radius: 1px;
+  	  -khtml-border-radius: 1px;
+  	border-radius: 1px;
+  	  -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+  	animation: mymove 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    50% {border-radius: 40px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    50% {border-radius: 40px;}
+}
+
+pre.prettyprint {
+        width: 95%;
+        margin: 1em auto;
+        padding: 1em !important;
+        white-space: pre-wrap;
+}
+
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums { margin-top: 0; margin-bottom: 0; color: #AEAEAE; } /* IE indents via margin-left */
+li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8 { list-style-type: none }
+/* Alternate shading for lines */
+li.L1,li.L3,li.L5,li.L7,li.L9 { }
+
+@media print {
+  pre .str, code .str { color: #060; }
+  pre .kwd, code .kwd { color: #006; font-family: 'FiraMono', font-weight: 300; }
+  pre .com, code .com { color: #600; font-style: italic; }
+  pre .typ, code .typ { color: #404; font-family: 'FiraMono', font-weight: 300; }
+  pre .lit, code .lit { color: #044; }
+  pre .pun, code .pun { color: #440; }
+  pre .pln, code .pln { color: #000; }
+  pre .tag, code .tag { color: #006; font-family: 'FiraMono', font-weight: 300; }
+  pre .atn, code .atn { color: #404; }
+  pre .atv, code .atv { color: #060; }
+}
