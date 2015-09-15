@@ -217,10 +217,10 @@ h6 {
 /* Page header */
   @media screen and (min-width: 64em) {
     .page-header {
-      padding: 1.5rem 0; } }
+      padding: 1.3rem 0; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
     .page-header {
-      padding: 1rem 0; } }
+      padding: 0.9rem 0; } }
   @media screen and (max-width: 42em) {
     .page-header {
       padding: 0.5rem 0; } }
