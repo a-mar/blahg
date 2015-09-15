@@ -37,3 +37,8 @@
   font-family:'CooHewTh';
   src: url('https://raw.githubusercontent.com/a-mar/shiz/master/ergh/CooperHewitt-Thin.woff') format('woff');
 }
+
+@font-face {
+  font-family:'FiraMono';
+  src: url('https://raw.githubusercontent.com/a-mar/shiz/master/ergh/FiraMono-Regular.woff') format('woff');
+}
