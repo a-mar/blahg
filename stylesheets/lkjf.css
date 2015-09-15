@@ -42,3 +42,8 @@
   font-family:'FiraMono';
   src: url('https://raw.githubusercontent.com/a-mar/shiz/master/ergh/FiraMono-Regular.woff') format('woff');
 }
+
+@font-face {
+  font-family:'FiraMonoMd';
+  src: url('https://raw.githubusercontent.com/a-mar/shiz/master/ergh/FiraMono-Medium.woff') format('woff');
+}
