@@ -5,7 +5,7 @@
 }
 
 code,kbd,pre,samp {
-  font-family: "{text:Meta Font}", sans-serif;
+  font-family: 'FiraMono', sans-serif;
   overflow: auto;
   /*width: 700px;*/
   font-size:64.7%;
