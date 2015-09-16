@@ -1,14 +1,14 @@
 .pre {
   overflow: auto;
   /*width: 700px;*/
-  font-family: 'SrcCode', Courier, sans-serif;
+  font-family: 'SrcCodeLig', Courier, sans-serif;
 }
 
 code,kbd,pre,samp {
-  font-family: 'SrcCode', sans-serif;
+  font-family: 'SrcCodeLig', sans-serif;
   overflow: auto;
   /*width: 700px;*/
-  font-size:64%;
+  font-size:65%;
   line-height:1.31;
 }
 
@@ -16,7 +16,7 @@ code,kbd,pre,samp {
 ==========================================================*/
   pre .str, code .str { color: #65B042; } /* string  - green */
   pre .kwd, code .kwd { color: #1e6cb0; } /* keyword - dark pink */
-  pre .com, code .com { color: #afbcdb; font-style: italic; } /* comment - gray */
+  pre .com, code .com { color: #afbcdb; font-family:'SrcCodeLigIt'; } /* comment - gray */
   pre .typ, code .typ { color: #9F00C5; } /* type - light blue */
   pre .lit, code .lit { color: #17b9c2; } /* literal - blue */
   pre .pun, code .pun { color: #E4717A; } /* punctuation - teal */
@@ -64,13 +64,13 @@ li.L1,li.L3,li.L5,li.L7,li.L9 { }
 
 @media print {
   pre .str, code .str { color: #060; }
-  pre .kwd, code .kwd { color: #006; font-family: 'SrcCode'; font-weight: normal; }
-  pre .com, code .com { color: #600; font-family: 'SrcCodeIt'; }
-  pre .typ, code .typ { color: #404; font-family: 'SrcCode'; font-weight: normal; }
+  pre .kwd, code .kwd { color: #006; font-family:'SrcCodeLig'; font-weight: normal; }
+  pre .com, code .com { color: #600; font-family:'SrcCodeLigIt'; }
+  pre .typ, code .typ { color: #404; font-family:'SrcCodeLig'; font-weight: normal; }
   pre .lit, code .lit { color: #044; }
   pre .pun, code .pun { color: #440; }
   pre .pln, code .pln { color: #000; }
-  pre .tag, code .tag { color: #006; font-family: 'SrcCode'; font-weight: normal; }
+  pre .tag, code .tag { color: #006; font-family:'SrcCodeLig'; font-weight: normal; }
   pre .atn, code .atn { color: #404; }
   pre .atv, code .atv { color: #060; }
 }
