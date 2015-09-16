@@ -47,3 +47,13 @@
   font-family:'FiraMonoMd';
   src: url('https://raw.githubusercontent.com/a-mar/shiz/master/ergh/FiraMono-Medium.woff') format('woff');
 }
+
+@font-face {
+  font-family:'SrcCode';
+  src: url('https://raw.githubusercontent.com/a-mar/shiz/master/quelle/SourceCodePro-Regular.otf.woff') format('woff');
+}
+
+@font-face {
+  font-family:'SrcCodeIt';
+  src: url('https://raw.githubusercontent.com/a-mar/shiz/master/quelle/SourceCodePro-It.otf.woff') format('woff');
+}
