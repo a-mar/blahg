@@ -57,3 +57,13 @@
   font-family:'SrcCodeIt';
   src: url('https://raw.githubusercontent.com/a-mar/shiz/master/quelle/SourceCodePro-It.otf.woff') format('woff');
 }
+
+@font-face {
+  font-family:'SrcCodeLig';
+  src: url('https://raw.githubusercontent.com/a-mar/shiz/master/quelle/SourceCodePro-Light.otf.woff') format('woff');
+}
+
+@font-face {
+  font-family:'SrcCodeLigIt';
+  src: url('https://raw.githubusercontent.com/a-mar/shiz/master/quelle/SourceCodePro-LightIt.otf.woff') format('woff');
+}
