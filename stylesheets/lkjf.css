@@ -8,7 +8,7 @@
   src: url('https://raw.githubusercontent.com/a-mar/shiz/master/ergh/NuvoWeb-Medi.woff') format('woff');
 }
 
-@font-face {
+/* @font-face {
   font-family:'FiraBook';
   src: url('https://raw.githubusercontent.com/a-mar/shiz/master/ergh/FiraSans-Book.woff') format('woff');
 }
@@ -48,6 +48,8 @@
   src: url('https://raw.githubusercontent.com/a-mar/shiz/master/ergh/FiraMono-Medium.woff') format('woff');
 }
 
+*/
+
 @font-face {
   font-family:'SrcCode';
   src: url('https://raw.githubusercontent.com/a-mar/shiz/master/quelle/SourceCodePro-Regular.otf.woff') format('woff');
@@ -66,4 +68,19 @@
 @font-face {
   font-family:'SrcCodeLigIt';
   src: url('https://raw.githubusercontent.com/a-mar/shiz/master/quelle/SourceCodePro-LightIt.otf.woff') format('woff');
+}
+
+@font-face {
+  font-family:'SSExLig';
+  src: url('https://raw.githubusercontent.com/a-mar/shiz/master/quelle/SourceSerifPro-ExtraLight.otf.woff') format('woff');
+}
+
+@font-face {
+  font-family:'SSReg';
+  src: url('https://raw.githubusercontent.com/a-mar/shiz/master/quelle/SourceSerifPro-Regular.otf.woff') format('woff');
+}
+
+@font-face {
+  font-family:'SSBold';
+  src: url('https://raw.githubusercontent.com/a-mar/shiz/master/quelle/SourceSerifPro-Bold.otf.woff') format('woff');
 }
