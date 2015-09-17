@@ -92,8 +92,9 @@ a {
 }
   a:hover {
     background-color: #FEE;
-    border-radius: 10px;
+    border-radius: 9px;
     height: 100%;
+    padding:1px;
   }
 
 h1, h2, h3, h4, h5, h6 {
