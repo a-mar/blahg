@@ -84,3 +84,8 @@
   font-family:'SSBold';
   src: url('https://raw.githubusercontent.com/a-mar/shiz/master/quelle/SourceSerifPro-Bold.otf.woff') format('woff');
 }
+
+@font-face {
+  font-family:'SSLig';
+  src: url('https://raw.githubusercontent.com/a-mar/shiz/master/quelle/SourceSerifPro-Light.otf.woff') format('woff');
+}
