@@ -1,11 +1,11 @@
 .pre {
   overflow: auto;
   /*width: 700px;*/
-  font-family: 'SrcCode', Courier, sans-serif;
+  font-family: 'SrcCode', Courier, monospace;
 }
 
 code,kbd,pre,samp {
-  font-family: 'SrcCode', Courier, sans-serif;
+  font-family: 'SrcCode', Courier, monospace;
   overflow: auto;
   /*width: 700px;*/
   font-size:83%;
