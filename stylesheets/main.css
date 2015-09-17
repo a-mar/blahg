@@ -8,7 +8,7 @@ body {
   margin-left:auto;
   margin-right:auto;
   /* font: 131%/1.33 'FiraBook', sans-serif; */
-  font: 131%/1.33 'SSReg', serif;
+  font: 131%/1.33 'SSExLig', serif;
   font-weight: 300;
   color: #6F6F6F;
   word-wrap: break-word;
@@ -27,19 +27,19 @@ body {
   @media screen and (min-width: 64em) {
     body {
       /* font: 131%/1.33 'FiraBook', sans-serif; } } */
-      font: 131%/1.33 'SSReg', serif; } }
+      font: 131%/1.33 'SSExLig', serif; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
     body {
       /* font: 120%/1.2 'FiraBook', sans-serif; } } */
-      font: 120%/1.2 'SSReg', serif; } }
+      font: 120%/1.2 'SSExLig', serif; } }
   @media screen and (max-width: 42em) {
     body {
       /* font: 100%/1.1 'FiraBook', sans-serif; } } */
-      font: 100%/1.1 'SSReg', serif; } }
+      font: 100%/1.1 'SSExLig', serif; } }
 
 p {
   /* font-family: 'FiraBook', sans-serif; */
-  font-family: 'SSReg', serif;
+  font-family: 'SSExLig', serif;
   font-weight: normal;
   font-style: normal;
   font-feature-settings: inherit;
@@ -71,7 +71,7 @@ em {
 */
 
 strong {
-  font-family: 'SSBold', serif;
+  font-family: 'SSReg', serif;
   /* font-family: 'FiraMed', sans-serif; */
   font-weight: normal;
   font-style: normal;
