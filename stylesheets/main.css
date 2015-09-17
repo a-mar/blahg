@@ -7,7 +7,8 @@ body {
   padding:0px 30px 30px;
   margin-left:auto;
   margin-right:auto;
-  font: 131%/1.33 'FiraBook', sans-serif;
+  /* font: 131%/1.33 'FiraBook', sans-serif; */
+  font: 131%/1.33 'SSReg', serif;
   font-weight: 300;
   color: #6F6F6F;
   word-wrap: break-word;
@@ -25,16 +26,20 @@ body {
 /* Page header */
   @media screen and (min-width: 64em) {
     body {
-      font: 131%/1.33 'FiraBook', sans-serif; } }
+      /* font: 131%/1.33 'FiraBook', sans-serif; } } */
+      font: 131%/1.33 'SSReg', serif; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
     body {
-      font: 120%/1.2 'FiraBook', sans-serif; } }
+      /* font: 120%/1.2 'FiraBook', sans-serif; } } */
+      font: 120%/1.2 'SSReg', serif; } }
   @media screen and (max-width: 42em) {
     body {
-      font: 100%/1.1 'FiraBook', sans-serif; } }
+      /* font: 100%/1.1 'FiraBook', sans-serif; } } */
+      font: 100%/1.1 'SSReg', serif; } }
 
 p {
-  font-family: 'FiraBook', sans-serif;
+  /* font-family: 'FiraBook', sans-serif; */
+  font-family: 'SSReg', serif;
   font-weight: normal;
   font-style: normal;
   font-feature-settings: inherit;
@@ -48,6 +53,7 @@ p {
   -o-font-feature-settings: inherit;
 }
 
+/*
 em {
   font-family: 'FiraBookIt', sans-serif;
   font-weight: normal;
@@ -62,9 +68,11 @@ em {
   -ms-font-feature-settings: inherit;
   -o-font-feature-settings: inherit;
 }
+*/
 
 strong {
-  font-family: 'FiraMed', sans-serif;
+  font-family: 'SSBold', serif;
+  /* font-family: 'FiraMed', sans-serif; */
   font-weight: normal;
   font-style: normal;
   font-feature-settings: inherit;
