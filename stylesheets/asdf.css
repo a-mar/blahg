@@ -5,13 +5,13 @@
 }
 
 code,kbd,pre,samp {
-  font-family: 'SrcCode', sans-serif;
+  font-family: 'SrcCode', Courier, sans-serif;
   overflow: auto;
   /*width: 700px;*/
-  font-size:89%;
+  font-size:83%;
   line-height:1.31;
   background-color: #EFF;
-  border-radius: 7px;
+  border-radius: 3px;
   height: 100%;
 }
 
