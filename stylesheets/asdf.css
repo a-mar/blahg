@@ -10,8 +10,9 @@ code,kbd,pre,samp {
   /*width: 700px;*/
   font-size:83%;
   line-height:1.31;
-  background-color: #EFF;
+  background-color: #eee;
   border-radius: 3px;
+  padding:2px;
   height: 100%;
 }
 
