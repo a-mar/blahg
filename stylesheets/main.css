@@ -229,17 +229,13 @@ h6 {
 }
 
 #header-left a {
-      margin-top: 3rem;
-      padding-top: 3rem;
       font-size:2rem;
       color:#00B4F1;
       font-family:'Nuvo', sans-serif;
       border-bottom:none;
-      background-color: none;
+      background-color:transparent;
 }
     #header-left a:hover {
-      margin-top: 3rem;
-      padding-top: 3rem;
       color: rgba(0,99,133,0.5);
       background-color:transparent;
     }
