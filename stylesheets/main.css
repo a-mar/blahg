@@ -319,12 +319,21 @@ nav ul li {
       }
   
   @media screen and (min-width: 64em) {
+    nav a {
+    padding: 13px 15px;
+    }
     nav a:hover {
       padding: 13px 15px; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
+    nav a {
+    padding: 7px 9px;
+    }
     nav a:hover {
       padding: 7px 9px; } }
   @media screen and (max-width: 42em) {
+    nav a {
+    padding: 5px 7px;
+    }
     nav a:hover {
       padding: 5px 7px; } }
 
