@@ -53,9 +53,10 @@ p {
   -o-font-feature-settings: inherit;
 }
 
-/*
 em {
-  font-family: 'FiraBookIt', sans-serif;
+  /* font-family: 'FiraBookIt', sans-serif; */
+  color:#FF4900;
+  font-family: 'SSLig', serif;
   font-weight: normal;
   font-style: normal;
   font-feature-settings: inherit;
@@ -68,7 +69,6 @@ em {
   -ms-font-feature-settings: inherit;
   -o-font-feature-settings: inherit;
 }
-*/
 
 strong {
   font-family: 'SSReg', serif;
