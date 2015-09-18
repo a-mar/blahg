@@ -311,6 +311,9 @@ nav ul li {
     padding:3px;
     font-weight: normal;
     }
+      a:hover {
+        padding: 3px;
+      }
 
 img.displayed {
     display: block;
