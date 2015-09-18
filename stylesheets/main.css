@@ -229,7 +229,18 @@ h6 {
 }
 
 header a {
+  margin-bottom:1rem;
+  padding-bottom:1rem;
   color:#00B4F1;
+  font-family:'Nuvo', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+  header a:hover {
+  margin-bottom:1rem;
+  padding-bottom:1rem;
+  color: rgba(0,180,241,0.5);
+  background-color:none;
   font-family:'Nuvo', sans-serif;
   font-weight: normal;
   font-style: normal;
