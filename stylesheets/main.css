@@ -229,6 +229,7 @@ h6 {
 }
 
 #header-left a {
+      display: block;
       font-size:2rem;
       color:#00B4F1;
       font-family:'Nuvo', sans-serif;
@@ -236,6 +237,7 @@ h6 {
       background-color:transparent;
 }
     #header-left a:hover {
+      display: block;
       color: rgba(0,99,133,0.5);
       background-color:transparent;
     }
@@ -330,8 +332,8 @@ nav ul li {
     border-bottom:none;
     }
       nav a:hover {
-        color: #667;
-        background-color: rgba(196,43,43,0.1);
+        color: #162833;
+        background-color: rgba(0,99,133,0.5);
         padding: 13px 15px;
         border-radius: 5px;
       }
