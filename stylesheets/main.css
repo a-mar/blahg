@@ -235,13 +235,13 @@ h6 {
       border-bottom:none;
       background-color:transparent;
       display: block;
-      margin: 1em 0;
+      margin: 0.5em 0;
 }
     #header-left a:hover {
       color: rgba(0,99,133,0.5);
       background-color:transparent;
       display: block;
-      margin: 1em 0;
+      margin: 0.5em 0;
     }
 
 /* Page header */
