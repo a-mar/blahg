@@ -229,7 +229,7 @@ h6 {
 }
 
 #header-left a {
-      margin-top: 2rem;
+      margin-top: 3rem;
       padding-top: 3rem;
       font-size:2rem;
       color:#00B4F1;
@@ -238,9 +238,9 @@ h6 {
       background-color: none;
 }
     #header-left a:hover {
-      margin-top: 2rem;
+      margin-top: 3rem;
       padding-top: 3rem;
-      color: rgba(0,99,133,0.75);
+      color: rgba(0,99,133,0.5);
       background-color:transparent;
     }
 
