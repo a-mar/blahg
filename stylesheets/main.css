@@ -91,7 +91,7 @@ a {
   color: #004952;
   text-decoration: none;
   padding:0.5px 2px;
-  border-bottom:solid 1px rgba(255,55,55,0.2);
+  border-bottom:solid 1.5px rgba(255,55,55,0.2);
   font-feature-settings: inherit;
   text-rendering: optimizeLegibility;
   -webkit-font-variant-ligatures: common-ligatures;
@@ -327,6 +327,7 @@ nav ul li {
 }
 
   nav a {
+    color: #004952;
     text-decoration: none;
     padding: 13px 15px;
     font-weight: normal;
