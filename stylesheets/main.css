@@ -214,6 +214,17 @@ h6 {
   font-family:'Nuvo', sans-serif;
   font-weight: normal;
   font-style: normal;
+    a {
+      color:#00B4F1;
+      font-family:'Nuvo', sans-serif;
+      font-weight: normal;
+      font-style: normal; }
+    a:hover {
+      color: rgba(0,180,241,0.5);
+      background-color:none;
+      font-family:'Nuvo', sans-serif;
+      font-weight: normal;
+      font-style: normal; }
 }
 
 #header-left {
@@ -226,24 +237,6 @@ h6 {
   text-align:right;
   margin-right:0;
   overflow: hidden;
-}
-
-header a {
-  margin-bottom:0;
-  padding-bottom:0;
-  color:#00B4F1;
-  font-family:'Nuvo', sans-serif;
-  font-weight: normal;
-  font-style: normal;
-}
-  header a:hover {
-  margin-bottom:0;
-  padding-bottom:0;
-  color: rgba(0,180,241,0.5);
-  background-color:none;
-  font-family:'Nuvo', sans-serif;
-  font-weight: normal;
-  font-style: normal;
 }
 
 /* Page header */
