@@ -305,6 +305,13 @@ nav ul li {
     font-size: 90%;
 }
 
+  nav a {
+    color: #1F3847;
+    text-decoration: none;
+    padding:3px;
+    font-weight: normal;
+    }
+
 img.displayed {
     display: block;
     margin-left: auto;
