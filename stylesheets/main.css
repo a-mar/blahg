@@ -229,20 +229,16 @@ h6 {
 }
 
 .hither a {
-      margin: 1rem 1rem 0; 
-      padding: 1rem 1rem 0;
+      padding: 2rem 0px 0px;
       font-size:2rem;
       color:#00B4F1;
       font-family:'Nuvo', sans-serif;
-      font-weight: normal;
-      font-style: normal;
+      border-bottom:none;
 }
     .hither a:hover {
-      margin: 1rem 1rem 0; 
-      padding: 1rem 1rem 0; 
+      padding: 2rem 0px 0px;
       color: rgba(0,180,241,0.5);
       background-color: none;
-      border-bottom:none;
     }
 
 /* Page header */
