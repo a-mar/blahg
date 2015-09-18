@@ -71,6 +71,7 @@ em {
 }
 
 strong {
+  color:#434355;
   font-family: 'SSReg', serif;
   /* font-family: 'FiraMed', sans-serif; */
   font-weight: normal;
