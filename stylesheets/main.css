@@ -228,6 +228,13 @@ h6 {
   overflow: hidden;
 }
 
+header a {
+  color:#00B4F1;
+  font-family:'Nuvo', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Page header */
   @media screen and (min-width: 64em) {
     .page-header {
