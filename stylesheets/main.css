@@ -228,23 +228,20 @@ h6 {
   overflow: hidden;
 }
 
-.header a {
-      margin:1rem;
-      padding:1rem;
+.hither a {
+      margin: 1rem 1rem 0; 
+      padding: 1rem 1rem 0;
       font-size:2rem;
       color:#00B4F1;
       font-family:'Nuvo', sans-serif;
       font-weight: normal;
       font-style: normal;
 }
-    .header a:hover {
-      margin:1rem;
-      padding:1rem;
+    .hither a:hover {
+      margin: 1rem 1rem 0; 
+      padding: 1rem 1rem 0; 
       color: rgba(0,180,241,0.5);
       background-color: none;
-      font-family:'Nuvo', sans-serif;
-      font-weight: normal;
-      font-style: normal;
       border-bottom:none;
     }
 
