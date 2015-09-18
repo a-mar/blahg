@@ -228,8 +228,9 @@ h6 {
   overflow: hidden;
 }
 
-.hither a {
-      padding-top: 2rem;
+#header-left a {
+      margin-top: 2rem;
+      padding-top: 3rem;
       font-size:2rem;
       color:#00B4F1;
       font-family:'Nuvo', sans-serif;
@@ -237,7 +238,8 @@ h6 {
       background-color: none;
 }
     #header-left a:hover {
-      padding-top: 2rem;
+      margin-top: 2rem;
+      padding-top: 3rem;
       color: rgba(0,99,133,0.75);
       background-color: none;
     }
