@@ -90,7 +90,8 @@ a {
   color: #1F3847;
   text-decoration: none;
   padding:2px;
-  font-weight: 400;
+  text-transform:lowercase;
+  font-variant: small-caps;
   font-feature-settings: inherit;
   text-rendering: optimizeLegibility;
   -webkit-font-variant-ligatures: common-ligatures;
