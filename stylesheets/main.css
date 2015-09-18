@@ -241,7 +241,7 @@ h6 {
       margin-top: 2rem;
       padding-top: 3rem;
       color: rgba(0,99,133,0.75);
-      background-color: none;
+      background-color:transparent;
     }
 
 /* Page header */
