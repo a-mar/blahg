@@ -229,15 +229,15 @@ h6 {
 }
 
 .hither a {
-      padding: inherit;
+      padding-top: 2rem;
       font-size:2rem;
       color:#00B4F1;
       font-family:'Nuvo', sans-serif;
       border-bottom:none;
       background-color: none;
 }
-    .hither a:hover {
-      padding: inherit;
+    #header-left a:hover {
+      padding-top: 2rem;
       color: rgba(0,99,133,0.75);
       background-color: none;
     }
