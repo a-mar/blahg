@@ -90,7 +90,7 @@ a {
   color: #1F3847;
   text-decoration: none;
   padding:2px;
-  border-bottom:solid 1px #FCD;
+  font-weight: bold;
   font-feature-settings: inherit;
   text-rendering: optimizeLegibility;
   -webkit-font-variant-ligatures: common-ligatures;
