@@ -308,12 +308,12 @@ nav ul li {
   nav a {
     color: #1F3847;
     text-decoration: none;
-    padding:9px;
+    padding:10px;
     font-weight: normal;
     }
       nav a:hover {
-        background-color:#DCD;
-        padding: 9px;
+        background-color:#F0E0F0;
+        padding: 10px;
         border-radius: 5px;
       }
 
