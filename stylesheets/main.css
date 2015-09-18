@@ -90,7 +90,7 @@ strong {
 a {
   color: #1F3847;
   text-decoration: none;
-  padding:2px;
+  padding:2px 3px;
   font-weight: bold;
   font-feature-settings: inherit;
   text-rendering: optimizeLegibility;
@@ -107,7 +107,7 @@ a {
     font-weight: normal;
     border-radius: 9px;
     height: 100%;
-    padding:2px;
+    padding:2px 3px;
   }
 
 h1, h2, h3, h4, h5, h6 {
