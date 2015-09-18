@@ -10,7 +10,7 @@ body {
   /* font: 131%/1.33 'FiraBook', sans-serif; */
   font: 131%/1.33 'SSLig', serif;
   font-weight: 300;
-  color: #6F6F6F;
+  color: #667;
   word-wrap: break-word;
   font-feature-settings: "liga", "pnum", "cpsp", "case";
   text-rendering: optimizeLegibility;
@@ -90,6 +90,7 @@ a {
   color: #1F3847;
   text-decoration: none;
   padding:2px;
+  font-family: 'SSReg', serif;
   font-feature-settings: inherit;
   text-rendering: optimizeLegibility;
   -webkit-font-variant-ligatures: common-ligatures;
@@ -101,7 +102,7 @@ a {
   -o-font-feature-settings: inherit;
 }
   a:hover {
-    background-color: #FEE;
+    background-color: #FCD;
     border-radius: 9px;
     height: 100%;
     padding:2px;
