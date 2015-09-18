@@ -91,7 +91,7 @@ a {
   color: #1F3847;
   text-decoration: none;
   padding:2px;
-  font-weight: bold;
+  border-bottom:solid 0.7px rgba(255,55,55,0.2);
   font-feature-settings: inherit;
   text-rendering: optimizeLegibility;
   -webkit-font-variant-ligatures: common-ligatures;
