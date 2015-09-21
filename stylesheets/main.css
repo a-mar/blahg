@@ -91,8 +91,8 @@ a {
   color: #30B0B0;
   text-decoration: none;
   padding:0 2px; 
-  border-radius: 5px;
-  background: linear-gradient(to right, rgba(252,0,70,.7) 50%, transparent 0%);
+  border-radius: 9px;
+  background: linear-gradient(to right, rgba(252,0,70,.6) 50%, transparent 0%);
   background-size: 200% 100%;
   background-position:right bottom;
   -webkit-transition: all 0.4s;
@@ -242,13 +242,13 @@ h6 {
       color:#00B4F1;
       font-family:'Nuvo', sans-serif;
       border-bottom:none;
-      background-color:transparent;
+      background-color: #fff;
       display: block;
       margin: 0.5em 0;
 }
     #header-left a:hover {
       color: rgba(0,99,133,0.5);
-      background-color:transparent;
+      background-color: #fff;
       display: block;
       margin: 0.5em 0;
     }
