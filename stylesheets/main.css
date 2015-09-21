@@ -105,9 +105,7 @@ a {
 }
   a:hover {
     color: #004952;
-    border-bottom: 1px #FC2366;
-    width: 100%;
-    /* border-bottom: 2px #FC2366; */
+    border-bottom: 2px #FC2366;
     /* background-color: rgba(255,55,55,0.23);
     border-radius: 9px;
     height: 100%;
