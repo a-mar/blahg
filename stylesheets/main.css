@@ -294,8 +294,12 @@ h6 {
       font-size: 0.9rem; } }
 
 .site-footer a {
-  border-bottom:none;
+  background:transparent;
 }
+    .site-footer a:hover {
+      color: #004952;
+      background:transparent;
+    }
 
 .site-footer-owner, .site-footer-credits, .site-footer-other {
   display: block;
@@ -345,7 +349,7 @@ nav ul li {
       nav a:hover {
         color: #162833;
         background-color: rgba(0,99,133,0.1);
-        background:transparent;
+        background:none;
         padding: 13px 15px;
         border-radius: 5px;
       }
