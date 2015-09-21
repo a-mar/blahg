@@ -90,9 +90,15 @@ strong {
 a {
   color: #30B0B0;
   text-decoration: none;
-  /* display: inline;
   padding:0 2px; 
-  border-bottom:solid 1.5px rgba(255,55,55,0.23); */
+  border-radius: 5px;
+  background: linear-gradient(to right, rgba(252,0,70,.7) 50%, transparent 0%);
+  background-size: 200% 100%;
+  background-position:right bottom;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+  cursor: pointer;
   font-feature-settings: inherit;
   text-rendering: optimizeLegibility;
   -webkit-font-variant-ligatures: common-ligatures;
@@ -103,11 +109,9 @@ a {
   -ms-font-feature-settings: inherit;
   -o-font-feature-settings: inherit;
 }
-  a:hover {
-    color: #FC2366;
-    background: linear-gradient(to right,  #FC2366 50%, #FFEE00 50%);
-    -webkit-transition: all 0.4s;
-    cursor: pointer;
+  a:hover, a:active {
+    color: #fff;
+    background-position:left bottom;
     /* background-color: rgba(255,55,55,0.23);
     border-radius: 9px;
     height: 100%;
