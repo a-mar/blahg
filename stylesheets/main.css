@@ -110,9 +110,8 @@ a {
     height: 100%;
     padding:0 2px; */
   }
-a:after {
+a:before {
   content: '';
-  display: inline-block;
   position: absolute;
   margin: auto;
   height: 2px;
@@ -121,7 +120,7 @@ a:after {
   background: transparent;
   transition: width .5s ease, background-color .5s ease;
 }
-a:hover:after {
+a:hover:before {
   width: 100%;
   background: #FC2366;
 }
