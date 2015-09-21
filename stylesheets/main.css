@@ -92,7 +92,7 @@ a {
   text-decoration: none;
   padding:1px 2px; 
   border-radius: 9px;
-  background: linear-gradient(to right, rgba(255,0,61,.67) 50%, transparent 0%);
+  background: linear-gradient(to right, rgba(255,0,53,.67) 50%, transparent 0%);
   background-size: 200% 100%;
   background-position:right bottom;
   -webkit-transition: all 0.4s;
@@ -295,7 +295,6 @@ h6 {
 
 .site-footer a {
   background:transparent;
-  display: table-row;
 }
     .site-footer a:hover {
       color: #004952;
