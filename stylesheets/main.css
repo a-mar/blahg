@@ -112,16 +112,15 @@ a {
   }
 a:after {
   content: '';
-	display: block;
-	margin: auto;
-	height: 3px;
-	width: 0px;
-	background: transparent;
-	transition: width .5s ease, background-color .5s ease;
+  margin: auto;
+  height: 3px;
+  width: 0px;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
 }
 a:hover:after {
   width: 100%;
-	background: #FC2366;
+  background: #FC2366;
 }
 
 h1, h2, h3, h4, h5, h6 {
