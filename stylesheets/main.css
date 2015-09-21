@@ -112,6 +112,7 @@ a {
   }
 a:after {
   content: '';
+  position: absolute;
   margin: auto;
   height: 3px;
   width: 0px;
