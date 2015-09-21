@@ -106,6 +106,8 @@ a {
   a:hover {
     color: #FC2366;
     background: linear-gradient(to right,  #FC2366 50%, #FFEE00 50%);
+    -webkit-transition: all 0.4s;
+    cursor: pointer;
     /* background-color: rgba(255,55,55,0.23);
     border-radius: 9px;
     height: 100%;
