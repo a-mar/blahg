@@ -295,6 +295,7 @@ h6 {
 
 .site-footer a {
   background:transparent;
+  display: table-row;
 }
     .site-footer a:hover {
       color: #004952;
