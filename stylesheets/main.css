@@ -90,7 +90,6 @@ strong {
 a {
   color: #30B0B0;
   text-decoration: none;
-  transition: all 0.5s ease;
   /* display: inline;
   padding:0 2px; 
   border-bottom:solid 1.5px rgba(255,55,55,0.23); */
@@ -106,7 +105,7 @@ a {
 }
   a:hover {
     color: #FC2366;
-    border-bottom: 2px #FC2366;
+    background: linear-gradient(to right,  #FC2366 50%, #FFEE00 50%);
     /* background-color: rgba(255,55,55,0.23);
     border-radius: 9px;
     height: 100%;
