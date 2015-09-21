@@ -88,14 +88,9 @@ strong {
 }
 
 a {
-  display: inline;
   color: #30B0B0;
-  text-decoration: none;
-    border-bottom: 1px solid blue;
-    width: 0px;
-    -webkit-transition: 0.5s ease;
-            transition: 0.5s ease;
-  /* padding:0 2px; 
+  /* display: inline;
+  padding:0 2px; 
   border-bottom:solid 1.5px rgba(255,55,55,0.23); */
   font-feature-settings: inherit;
   text-rendering: optimizeLegibility;
@@ -111,7 +106,7 @@ a {
     color: #004952;
     -webkit-transition: 0.5s ease;
             transition: 0.5s ease;
-    border-bottom: 1px solid blue;
+    border-bottom: 1px #FC2366;
     width: 100%;
     /* border-bottom: 2px #FC2366; */
     /* background-color: rgba(255,55,55,0.23);
