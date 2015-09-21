@@ -345,6 +345,7 @@ nav ul li {
     padding: 13px 15px;
     font-weight: normal;
     border-bottom:none;
+    background:transparent;
     }
       nav a:hover {
         color: #162833;
