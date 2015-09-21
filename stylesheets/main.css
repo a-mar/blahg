@@ -123,7 +123,7 @@ a {
     background: transparent;
     transition: width .5s ease, background-color .5s ease;
   }
-  s:hover:after {
+  a:hover:after {
     width: 100%;
     background: #FC2366;
   }
