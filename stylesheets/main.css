@@ -91,10 +91,10 @@ a {
   display: inline;
   color: #30B0B0;
   text-decoration: none;
-  border-bottom: 3px solid transparent;
+  /*border-bottom: 3px solid transparent;
   width: 0px;
   transition: 0.5s ease;
-  white-space: nowrap;
+  white-space: nowrap; */
   /* padding:0 2px; 
   border-bottom:solid 1.5px rgba(255,55,55,0.23); */
   font-feature-settings: inherit;
@@ -109,11 +109,23 @@ a {
 }
   a:hover {
     color: #004952;
-    border-bottom: 2px #FC2366;
+    /* border-bottom: 2px #FC2366; */
     /* background-color: rgba(255,55,55,0.23);
     border-radius: 9px;
     height: 100%;
     padding:0 2px; */
+  }
+  a:after {
+    content: '';
+    display: inline;
+    height: 2px;
+    width: 0;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+  }
+  s:hover:after {
+    width: 100%;
+    background: #FC2366;
   }
 
 h1, h2, h3, h4, h5, h6 {
