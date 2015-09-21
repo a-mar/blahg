@@ -89,6 +89,7 @@ strong {
 
 a {
   color: #30B0B0;
+  text-transform: none;
   /* display: inline;
   padding:0 2px; 
   border-bottom:solid 1.5px rgba(255,55,55,0.23); */
@@ -104,8 +105,6 @@ a {
 }
   a:hover {
     color: #004952;
-    -webkit-transition: 0.5s ease;
-            transition: 0.5s ease;
     border-bottom: 1px #FC2366;
     width: 100%;
     /* border-bottom: 2px #FC2366; */
