@@ -52,7 +52,7 @@ To begin with my working space is based on compartments. Within my main folder w
 <p>The <code>firstchar</code> code is from was from <a href="http://tex.stackexchange.com/questions/79907/howto-achieve-capitalized-description-in-glossary-table" title="firstchar on TeX.SE" target="_blank">this tutorial</a> on <a href="http://tex.stackexchange.com/" title="TeX on SE" target="_blank">TeX.SE</a>. What this code does is that it renders the first letter of the definition uppercase on the Abbreviations page, and when used in the main text, the first letter is rendered in lowercase. Without this code, the whole thing becomes a wee bit awkward, with random words which are not meant to be in uppercase rendered as such.</p> 
 
 <h3>At the glossary page:</h3>
-<p>This piece of code is inserted in the file <code>agloss.tex</code>. Since the chapter is not part of the usual numbered chapters, it is necessary to add the second line of the code so that the chapter is added to the Table of Contents page. <code>\glossyname</code> is a macro created so that the chapter is named as Abbreviations instead of Glossary.</p>
+<p>This piece of code is inserted in the file <code>agloss.tex</code>. Since the chapter is not part of the usual numbered chapters, it is necessary to add the second line of the code so that the chapter is added to the Table of Contents page. <code>\glossyname</code> is a macro created so that the chapter is named as <strong>Abbreviations</strong> instead of <strong>Glossary</strong>.</p>
 <pre class="prettyprint lang-latex linenums">
    \newpage
    \cleardoublepage\phantomsection\addcontentsline{toc}{chapter}{\textbf{Abbreviations}}
