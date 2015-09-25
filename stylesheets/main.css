@@ -98,12 +98,12 @@ a {
   text-decoration: none;
   padding:1px 2px; 
   border-radius: 9px;
-  background: linear-gradient(to right, rgba(255,0,53,.67) 49.99%, transparent 0%);
-  background-size: 200% 100%;
+  background: linear-gradient(to right, rgba(0,186,186,.67) 50%, transparent 0%);
+  background-size: 201% 100%;
   background-position:right bottom;
-  -webkit-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  transition: all 0.4s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
   cursor: pointer;
   font-feature-settings: inherit;
   text-rendering: optimizeLegibility;
@@ -125,7 +125,8 @@ a {
   }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#00B4F1;
+  /* color:#00B4F1; */
+  color: #FF4900;
   font-family:'Nuvo', sans-serif;
   font-weight: normal;
   font-feature-settings: inherit;
@@ -238,10 +239,11 @@ h6 {
 }
 
 #header-left {
+  overflow: hidden
   font: 2.5rem; 'CooHewLig', sans-serif;
   float: left;
   text-align: left;
-  margin: 0.5em 0;
+  margin-top: 0.5em;
 }
    #header-left a {
      color: #00B4F1;
@@ -261,11 +263,11 @@ h6 {
   @media screen and (min-width: 42em) and (max-width: 64em) {
     #header-left {
       font-size: 1.7rem;
-      margin: 1.5em auto; } }
+      margin: 0.5em auto; } }
   @media screen and (max-width: 42em) {
     #header-left {
       font-size: 1.3rem;
-      margin: 1.3em auto; } }
+      margin: 1em auto; } }
 
 /* Page header */
   @media screen and (min-width: 64em) {
@@ -371,12 +373,15 @@ nav ul li {
     padding: 13px 15px;
     font-weight: normal;
     border-bottom:none;
-    background:transparent;
+    background: linear-gradient(transparent 50%, rgba(0,99,133,0.1) 0%);
+    background-size: 100% 201%;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
     text-transform: uppercase;
     }
       nav a:hover {
         color:#00B4F1;
-        background-color: rgba(0,99,133,0.1);
+        background-position: 100% 100%;
         padding: 13px 15px;
         border-radius: 5px;
       }
