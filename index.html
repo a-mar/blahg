@@ -19,12 +19,34 @@ title: Blahg&mdash;Not a blog @ a-mar
   <pre class="prettyprint lang-latex">
    \documentclass[a4paper,11pt]{report}
    \renewcommand*{\familydefault}{\sfdefault}
-   \usepackage[top=2.5truecm, bottom=2.5truecm, left=4truecm, right=2truecm]{geometry}
+   \usepackage[hoffset=0.5truein,vscale=0.8,footskip=1.8truecm]{geometry}
    \usepackage[english]{babel}</pre>
-  <h3>This is an H3 heading</h3>
-  abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz
-  <p>This is emphasised text <code>em</code>: <em>abcdefghijklmnopqrstuvwxyz</em></p>
-  <p>This is <code>strong</code>: <strong>abcdefghijklmnopqrstuvwxyz</strong></p>
-  <p>This is regular text: abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz</p>
-  <p>This is a link: <a href="/blahg">Dies ist ein Link.</a></p>
+<h3>Glossary</h3>
+<pre class="prettyprint lang-latex">
+   \usepackage[nonumberlist,nopostdot,style=super]{glossaries}
+   \usepackage{acronym}
+   \usepackage{glossary-mcols}
+   %firstchar uppercase, text lowercase
+   \let\firstchar\lowercase
+   \let\oldprintglossary\printglossary
+   \def\printglossary{\let\firstchar\uppercase\oldprintglossary}
+
+   \makeglossaries
+
+   \renewcommand{\glsnamefont}[1]{\textbf{#1}}
+   \setlength{\glsdescwidth}{0.8\textwidth}</pre>
+
+<pre class="prettyprint lang-latex">
+   \newpage
+   \cleardoublepage\phantomsection\addcontentsline{toc}{chapter}{\textbf{Abbreviations}}
+   \Charter
+   %example glossary entries
+     \newacronym{CFCs}{CFCs}{\firstchar{C}hloroflurocarbons}
+     \newacronym{GHGs}{GHGs}{\firstchar{G}reenhouse gases}
+     \newacronym{IPCC}{IPCC}{Intergovernmental Panel on Climate Change}
+   \begin{spacing}{1}
+   \glsaddall
+   \printglossary[title={\glossyname}]
+   \end{spacing}
+   \newpage</pre>
 </div>
