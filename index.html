@@ -48,6 +48,7 @@ To begin with my working space is based on compartments. Within my main folder w
 
    \renewcommand{\glsnamefont}[1]{\textbf{#1}}
    \setlength{\glsdescwidth}{0.8\textwidth}</pre>
+<p>The <code>firstchar</code> code is from was from <a href="http://tex.stackexchange.com/questions/79907/howto-achieve-capitalized-description-in-glossary-table" title="firstchar on TeX.SE" target="_blank">this tutorial</a> on <a href="http://tex.stackexchange.com/" title="TeX on SE" target="_blank">TeX.SE</a>. What this code does is that it renders the first letter of the definition uppercase on the Abbreviations page, and when used in the main text, the first letter is rendered in lowercase. Without this code, the whole thing becomes a wee bit awkward, with random words which are not meant to be in uppercase rendered as such.</p> 
 <h3>At the glossary page:</h3>
 <p>This piece of code is inserted in one of the back/front matter pages of the thesis. In my case I named the file <code>agloss.tex</code>&mdash;<code>a</code> for me to know that it is front matter page and <code>gloss</code> for glossary</p>
 <pre class="prettyprint lang-latex">
