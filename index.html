@@ -6,16 +6,28 @@ title: Blahg&mdash;Not a blog @ a-mar
   <section class="page-header">
     <h2 class="project-tagline">LaTeX-ing your thesis</h2>	
   </section>
-
-  <h1>This is an H1 heading</h1>
-  <p>This is a trial <code>LaTeX</code> code</p>
-  <pre class="prettyprint lang-latex linenums">
-   \newcommand*{\glossyname}{Abbreviations}
-   \addto\captionsenglish{\renewcommand{\glossyname}{\LARGE\bf\centering\vspace*{11pt}Abbreviations\vspace{5pt}}}
-   \newcommand*{\ackname}{Acknowledgements}
-   \addto\captionsenglish{\renewcommand{\ackname}{\LARGE\bf\centering\vspace*{-25pt}Acknowledgements\vspace{5pt}}}
-   %THIS IS A COMMENT</pre>
-  <h2>This is an H2 heading</h2>
+To begin with my working space is based on compartments. Within my main folder where the main <code>.tex</code> file <code>THESIS.tex</code> is located, I have 9 sub-folders containing the other sections and codes for the thesis:
+<ol>
+  <li><code>BackFrontMat/</code> &ndash; This folder contains 7 <code>.tex</code> files:
+    <ul>
+      <li><code>a1page.tex</code> &ndash; Front/Title page</li>
+      <li><code>abs.tex</code> &ndash; Abstract</li>
+      <li><code>ack.tex</code> &ndash; Acknowledgement</li>
+      <li><code>agloss.tex</code> &ndash; Abbreviations</li>
+      <li><code>atabs.tex</code> &ndash; Tables pages (i.e., Table of Contents, List of Figures, and List of Tables)</li>
+      <li><code>ch07app.tex</code> &ndash; Appendix</li>
+      <li><code>ch08ref.tex</code> &ndash; References</li>
+    </ul></li>
+  <li><code>Chapters/</code> &ndash; This folder contains 6 <code>.tex</code> files: <code>ch01.tex</code> to <code>ch06.tex</code></li>
+  <li><code>Sections/</code> &ndash; This folder contains several <code>.tex</code> files, whose naming convention starts with the chapter the section is associated with e.g. <code>ch01_intro.tex</code> refers to Chapter 1 Introduction</li>
+  <li><code>figuras/</code> &ndash; Contains <code>.tex</code> files for the figures in the thesis. Each file is created for each figure and called when writing using <code>\input{figuras/*figurefilename}</code>. These figures are the ones that use external images (i.e., images not generated through <code>LaTeX</code>)</li>
+  <li><code>filesdat/</code> &ndash; Where all <code>.dat</code> data files are stored (for graphs, illustrations, etc.)</li>
+  <li><code>fonts/</code> &ndash; Where I store all the fonts that I need in the thesis. Although they are my system fonts, I decided to store them here especially so that I need not use some hefty directory changes when calling the fonts I need</li>
+  <li><code>imagen/</code> &ndash; Where the external images are stored (i.e., <code>.png</code>, <code>.jpg</code>, etc. images); this folder is specified in the preamble as the path where all image files are stored</li>
+  <li><code>mesas/</code> &ndash; Contains all the codes for the tables. Individual tables are individual <code>.tex</code> files so that in the section where I need the table I just use <code>\input{mesas/*tablefilename}</code></li>
+  <li><code>tikzfiguras/</code> &ndash; This is where I store the files for figures generated using <code>TikZ/PGF</code>. Each file is then called within the thesis using <code>\input{tikzfiguras/*tikzfigurefilename}</code></li>
+</ol>
+  <h2>Top of preamble</h2>
   <pre class="prettyprint lang-latex">
    \documentclass[a4paper,11pt]{report}
    \renewcommand*{\familydefault}{\sfdefault}
@@ -35,7 +47,8 @@ title: Blahg&mdash;Not a blog @ a-mar
 
    \renewcommand{\glsnamefont}[1]{\textbf{#1}}
    \setlength{\glsdescwidth}{0.8\textwidth}</pre>
-
+<h3>At the glossary page:</h3>
+<p>This piece of code is inserted in one of the back/front matter pages of the thesis. In my case I named the file <code>agloss.tex</code>&mdash;<code>a</code> for me to know that it is front matter page and <code>gloss</code> for glossary</p>
 <pre class="prettyprint lang-latex">
    \newpage
    \cleardoublepage\phantomsection\addcontentsline{toc}{chapter}{\textbf{Abbreviations}}
