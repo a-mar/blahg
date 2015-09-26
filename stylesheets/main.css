@@ -59,6 +59,13 @@ p {
   -o-font-feature-settings: inherit;
 }
 
+p.notes {
+  font: 133%/1.35; 'CooHewLig', sans-serif;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 em {
   /* font-family: 'FiraBookIt', sans-serif; */
   color:#FF4900;
@@ -96,9 +103,9 @@ strong {
 a {
   color: #30B0B0;
   text-decoration: none;
-  padding:1px 2px; 
-  border-radius: 9px;
-  background: linear-gradient(to right, rgba(0,186,186,.67) 50%, transparent 0%);
+  padding:0.7px 1.3px; 
+  border-radius: 8px;
+  background: linear-gradient(to right, #004952, #005D64, #007B82, rgba(0,186,186,0.73) 50%, transparent 0%);
   background-size: 201% 100%;
   background-position:right bottom;
   -webkit-transition: all 0.3s;
@@ -414,8 +421,37 @@ nav ul li {
 img.displayed {
     display: block;
     margin-left: auto;
-    margin-right: auto }
+    margin-right: auto; }
 
 li:not(:last-child) {
     padding-bottom: 6px;
 }
+
+div.trim {
+     max-height: 73px;
+     max-width: auto;
+     width: auto;
+     overflow: hidden;
+ }
+  div.trim a {
+    color: none;
+    background: none;
+    padding: 0;
+  }
+
+img.fig {
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+/* Image Figure*/
+@media screen and (min-width: 64em) {
+    img.fig {
+      width: auto;} }
+  @media screen and (min-width: 42em) and (max-width: 64em) {
+    img.fig {
+      width: 100%;} }
+  @media screen and (max-width: 42em) {
+    img.fig {
+      width: 100%;} }
