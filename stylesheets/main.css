@@ -59,8 +59,9 @@ p {
   -o-font-feature-settings: inherit;
 }
 
-p.sidenote {
-  font: 133%/1.35; 'CooHewLig', sans-serif;
+.sidenote {
+  font-family: 'CooHewLig', sans-serif;
+  font-size: 1.5em;
   color: #007B82;
   text-transform: uppercase;
   margin-left: auto;
