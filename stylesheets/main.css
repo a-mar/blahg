@@ -62,8 +62,9 @@ p {
 .sidenote {
   font-family: 'CooHewLig', sans-serif;
   font-size: 1.5em;
-  color: #007B82;
+  color: #00B4F1;
   text-transform: uppercase;
+  font-weight: 400;
   margin-left: auto;
   margin-right: auto;
 }
