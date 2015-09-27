@@ -7,7 +7,10 @@ title: Blahg&mdash;Not a blog @ a-mar
     <h2 class="project-tagline">LaTeX-ing your thesis</h2>	
   </section>
 <h1>Work set-up</h1>
-To begin with my working space is based on compartments. Within my main folder where the main <code>.tex</code> file <code>THESIS.tex</code> is located, I have 9 sub-folders containing the other sections and codes for the thesis:
+To begin with my working space is based on compartments. Initially this was not the case, however, as I gradually worked on the thesis, the number of files grew and scrolling through the document became a headache if I didn't put my files into their own compartments. Reading <a href="https://www.sharelatex.com/blog/2013/08/02/thesis-series-pt1.html" title="Compartments tutorial" target="_blank">this tutorial</a> on how to go about large documents with <code>LaTeX</code> helped me a lot.
+<h3>Main folder</h3>
+The main folder contains 9 sub-folders, and 9 files includring the root file, <code>THESIS.tex</code>.
+<h3>The 9 sub-folders</h3>
 <ol class="custom-counter">
   <li><code>BackFrontMat/</code> &ndash; This folder contains the files for the back and front matter&mdash;one <code>.tex</code> for each special chapter. For my case the ones I have for the front matter are: Front/Title page (a customised page), Abstract, Acknowledgements, <a href="#glosspreamble">Abbreviations</a>, Tables pages (Table of Contents, List of Figures, and List of Tables). For the back matter the files are: Appendices and References. I separated them from the other chapters since they special chapters and the way they were set were different from the rest of the regular chapters.</li>
   <li><code>Chapters/</code> &ndash; This folder contains 6 <code>.tex</code> files: <code>ch01.tex</code> to <code>ch06.tex</code></li>
@@ -18,8 +21,6 @@ To begin with my working space is based on compartments. Within my main folder w
   <li><code>imagen/</code> &ndash; Where the external images are stored (i.e., <code>.png</code>, <code>.jpg</code>, etc. images); this folder is specified in the preamble as the path where all image files are stored</li>
   <li><code>mesas/</code> &ndash; Contains all the codes for the tables. Individual tables are individual <code>.tex</code> files so that in the section where I need the table I just use <code>\input{mesas/*tablefilename}</code></li>
   <li><code>tikzfiguras/</code> &ndash; This is where I store the files for figures generated using <code>TikZ/PGF</code>. Each file is then called within the thesis using <code>\input{tikzfiguras/*tikzfigurefilename}</code></li>
-  <li>These are the files that are within my main workspace:</li>
-  <li>These are the files that are within my main workspace:</li>
 </ol>
 <h1>Main TeX file</h1>
 <p>This is how <code>THESIS.tex</code> looks like:</p>
