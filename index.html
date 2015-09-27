@@ -53,7 +53,7 @@ The main folder contains 9 sub-folders, and 9 files includring the root file, <c
 <pre class="prettyprint lang-latex">
    \newpage
    <span class="highlighted">\cleardoublepage\phantomsection\addcontentsline{toc}{chapter}{\textbf{Abbreviations}}</span>
-   \Charter
+   <span id="line3">\Charter</span>
    %example glossary entries
      \newacronym{CFCs}{CFCs}{\firstchar{C}hloroflurocarbons}
      \newacronym{GHGs}{GHGs}{\firstchar{G}reenhouse gases}
@@ -73,6 +73,6 @@ The main folder contains 9 sub-folders, and 9 files includring the root file, <c
 <p class="sidenote">Some notes:</p>
 <ul>
 <li>The macro <code>\glossyname</code> was created since what I have in my thesis were abbreviations and not definitions&mdash;which if it were the latter, then <strong>Glossary</strong> would have been more appropriate, and <code>\printglossary</code> would have sufficed.</li>
-<li>The macro <code>\Charter</code> on line 3 of the code is a font macro, which is another hacky way of mine to render the body text as serif (Charter) while leaving the rest in sans-serif (Fira Sans).</li>
+<li>The macro <code>\Charter</code> on <a href="#line3">line 3</a> of the code is a font macro, which is another hacky way of mine to render the body text as serif (Charter) while leaving the rest in sans-serif (Fira Sans).</li>
 </ul>
 </div>
