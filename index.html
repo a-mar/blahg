@@ -9,7 +9,7 @@ title: Blahg&mdash;Not a blog @ a-mar
 <h1>Work set-up</h1>
 To begin with my working space is based on compartments. Within my main folder where the main <code>.tex</code> file <code>THESIS.tex</code> is located, I have 9 sub-folders containing the other sections and codes for the thesis:
 <ol class="custom-counter">
-  <li><code>BackFrontMat/</code> &ndash; This folder contains the files for the back and front matter&mdash;one <code>.tex</code> for each special chapter. For my case the ones I have for the front matter are: Front/Title page (a customised page), Abstract, Acknowledgements, Abbreviations, Tables pages (Table of Contents, List of Figures, and List of Tables). For the back matter the files are: Appendices and References. I separated them from the other chapters since they special chapters and the way they were set were different from the rest of the regular chapters.</li>
+  <li><code>BackFrontMat/</code> &ndash; This folder contains the files for the back and front matter&mdash;one <code>.tex</code> for each special chapter. For my case the ones I have for the front matter are: Front/Title page (a customised page), Abstract, Acknowledgements, <a href="#glosspreamble">Abbreviations</a>, Tables pages (Table of Contents, List of Figures, and List of Tables). For the back matter the files are: Appendices and References. I separated them from the other chapters since they special chapters and the way they were set were different from the rest of the regular chapters.</li>
   <li><code>Chapters/</code> &ndash; This folder contains 6 <code>.tex</code> files: <code>ch01.tex</code> to <code>ch06.tex</code></li>
   <li><code>Sections/</code> &ndash; This folder contains several <code>.tex</code> files, whose naming convention starts with the chapter the section is associated with e.g. <code>ch01_intro.tex</code> refers to Chapter 1 Introduction</li>
   <li><code>figuras/</code> &ndash; Contains <code>.tex</code> files for the figures in the thesis. Each file is created for each figure and called when writing using <code>\input{figuras/*figurefilename}</code>. These figures are the ones that use external images (i.e., images not generated through <code>LaTeX</code>)</li>
@@ -31,7 +31,7 @@ To begin with my working space is based on compartments. Within my main folder w
    \usepackage[hoffset=0.5truein,vscale=0.8,footskip=1.8truecm]{geometry}
    \usepackage[english]{babel}</pre>
 
-<h3>Glossary</h3>
+<h3 id="glosspreamble">Glossary</h3>
 <pre class="prettyprint lang-latex">
    \usepackage[nonumberlist,nopostdot,style=super]{glossaries}
    \usepackage{acronym}
@@ -47,11 +47,11 @@ To begin with my working space is based on compartments. Within my main folder w
    \setlength{\glsdescwidth}{0.8\textwidth}</pre>
 <p>The <code>firstchar</code> code is from was from <a href="http://tex.stackexchange.com/questions/79907/howto-achieve-capitalized-description-in-glossary-table" title="firstchar on TeX.SE" target="_blank">this tutorial</a> on <a href="http://tex.stackexchange.com/" title="TeX on SE" target="_blank">TeX.SE</a>. What this code does is that it renders the first letter of the definition uppercase on the Abbreviations page, and when used in the main text, the first letter is rendered in lowercase. Without this code, the whole thing becomes a wee bit awkward, with random words which are not meant to be in uppercase rendered as such.</p> 
 
-<h3>At the glossary page:</h3>
+<h3 id="glosspage">At the glossary page:</h3>
 <p>This piece of code is inserted in the file <code>agloss.tex</code>. Since the chapter is not part of the usual numbered chapters, it is necessary to add the second line of the code so that the chapter is added to the Table of Contents page.  On line 10, <code>\glossyname</code> is a macro created so that the chapter is named as <strong>Abbreviations</strong> instead of <strong>Glossary</strong>. The <code>\textbf{Abbreviations}</code> part is a sort of hacky way of adding the title of the chapter in the Table of Contents, without it, the chapter title is added in the Table of Contents, but not in boldface.</p>
-<pre class="prettyprint lang-latex linenums">
+<pre class="prettyprint lang-latex">
    \newpage
-   \cleardoublepage\phantomsection\addcontentsline{toc}{chapter}{\textbf{Abbreviations}}
+   <span class="highlighted">\cleardoublepage\phantomsection\addcontentsline{toc}{chapter}{\textbf{Abbreviations}}</span>
    \Charter
    %example glossary entries
      \newacronym{CFCs}{CFCs}{\firstchar{C}hloroflurocarbons}
