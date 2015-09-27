@@ -37,9 +37,9 @@ To begin with my working space is based on compartments. Within my main folder w
    \usepackage{acronym}
    \usepackage{glossary-mcols}
    %firstchar uppercase, text lowercase
-   \let\firstchar\lowercase
+   <span class="highlighted">\let\firstchar\lowercase
    \let\oldprintglossary\printglossary
-   \def\printglossary{\let\firstchar\uppercase\oldprintglossary}
+   \def\printglossary{\let\firstchar\uppercase\oldprintglossary}</span>
 
    \makeglossaries
 
@@ -59,7 +59,7 @@ To begin with my working space is based on compartments. Within my main folder w
      \newacronym{IPCC}{IPCC}{Intergovernmental Panel on Climate Change}
    \begin{spacing}{1}
    \glsaddall
-   \printglossary[title={\glossyname}]
+   <span class="highlighted">\printglossary[title={\glossyname}]</span>
    \end{spacing}
    \newpage</pre>
 <p>As an example, here is what the entries in the Abbreviations page looks like:</p>
