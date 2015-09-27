@@ -12,7 +12,7 @@ To begin with my working space is based on compartments. Initially this was not 
 The main folder contains 9 sub-folders, and 9 files includring the root file, <code>THESIS.tex</code>.
 <h3>The 9 sub-folders</h3>
 <ol class="custom-counter">
-  <li><code>BackFrontMat/</code> &ndash; This folder contains the files for the back and front matter&mdash;one <code>.tex</code> for each special chapter. For my case the ones I have for the front matter are: Front/Title page (a customised page), Abstract, Acknowledgements, <a href="#glosspreamble">Abbreviations</a>, Tables pages (Table of Contents, List of Figures, and List of Tables). For the back matter the files are: Appendices and References. I separated them from the other chapters since they special chapters and the way they were set were different from the rest of the regular chapters.</li>
+  <li><code>BackFrontMat/</code> &ndash; This folder contains the files for the back and front matter&mdash;one <code>.tex</code> for each special chapter. For my case the ones I have for the front matter are: Front/Title page (a customised page), Abstract, Acknowledgements, <a href="#glosspreamble" title="go to glossary section">Abbreviations</a>, Tables pages (Table of Contents, List of Figures, and List of Tables). For the back matter the files are: Appendices and References. I separated them from the other chapters since they special chapters and the way they were set were different from the rest of the regular chapters.</li>
   <li><code>Chapters/</code> &ndash; This folder contains 6 <code>.tex</code> files: <code>ch01.tex</code> to <code>ch06.tex</code></li>
   <li><code>Sections/</code> &ndash; This folder contains several <code>.tex</code> files, whose naming convention starts with the chapter the section is associated with e.g. <code>ch01_intro.tex</code> refers to Chapter 1 Introduction</li>
   <li><code>figuras/</code> &ndash; Contains <code>.tex</code> files for the figures in the thesis. Each file is created for each figure and called when writing using <code>\input{figuras/*figurefilename}</code>. These figures are the ones that use external images (i.e., images not generated through <code>LaTeX</code>)</li>
@@ -73,6 +73,6 @@ The main folder contains 9 sub-folders, and 9 files includring the root file, <c
 <p class="sidenote">Some notes:</p>
 <ul>
 <li>The macro <code>\glossyname</code> was created since what I have in my thesis were abbreviations and not definitions&mdash;which if it were the latter, then <strong>Glossary</strong> would have been more appropriate, and <code>\printglossary</code> would have sufficed.</li>
-<li>The macro <code>\Charter</code> on <a href="#line3">line 3</a> of the code is a font macro, which is another hacky way of mine to render the body text as serif (Charter) while leaving the rest in sans-serif (Fira Sans).</li>
+<li>The macro <code>\Charter</code> on <a href="#line3" title="to line 3">line 3</a> of the code is a font macro, which is another hacky way of mine to render the body text as serif (Charter) while leaving the rest in sans-serif (Fira Sans).</li>
 </ul>
 </div>
